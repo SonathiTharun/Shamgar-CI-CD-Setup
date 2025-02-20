@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: false # Set to false if you only want to build the image
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-ci-cd-app:latest
+          tags: docker login -u sonathitharun/my-ci-cd-app:latest
